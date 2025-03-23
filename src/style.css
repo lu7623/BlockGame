@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --green: #32ff00;
+  --white: #fff;
+  --overlay: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", serif;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.board {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  min-width: 200px;
+  min-height: 150px;
+  padding: 30px 50px;
+
+  border-radius: 10px;
+  background: var(--overlay);
+  backdrop-filter: blur(10px);
+  color: var(--white);
+}
+
+.board p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+
+.board button {
+  display: block;
+  width: 100%;
+  padding: .3em .5em .4em;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .05em;
+
+  border: solid 1px var(--white);
+  border-radius: 5px;
+  color: var(--white);
+  background: none;
+  cursor: pointer;
+}
+
+.board button:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
