@@ -12,7 +12,7 @@
 ## Running application
 Clone repo
 ```
-git clone https://github.com/lu7623/ProgressBlock.git
+git clone https://github.com/lu7623/BlockGame.git
 ```
 Install dependencies
 ```
