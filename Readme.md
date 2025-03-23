@@ -28,4 +28,4 @@ npm run build
 ```
 
 ## Deploy link
-https://lu7623.github.io/ProgressBlock/
+https://lu7623.github.io/BlockGame/
